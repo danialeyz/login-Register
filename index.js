@@ -1,11 +1,11 @@
-//register form
+//register form main variables
 const buttonTransform = document.querySelector(".btn-outline-light");
 const cover = document.querySelector(".cover");
 const signUpBtn = document.querySelector(".signUp-button");
 let userName;
 let EmailUser;
 let passwordUser;
-//login form
+//login form main variables
 
 let email;
 let pass;
@@ -15,6 +15,7 @@ buttonTransform.addEventListener("click", transform);
 signUpBtn.addEventListener("click", saveInfo);
 signInBtn.addEventListener("click", signIn);
 
+// forms cover tranformation function
 function transform() {
   cover.style.transform = "translate(-100%)";
   cover.children[0].innerText = "Welcome back!";
@@ -32,6 +33,7 @@ function transform() {
   }
 }
 
+// Sign up form function (saving , validating , ...)
 function saveInfo() {
   userName = document.querySelector(".userName").value;
   EmailUser = document.querySelector(".EmailUser").value;
@@ -58,6 +60,8 @@ function saveInfo() {
     alert("your Email is invalid!!");
   }
 }
+
+// !signin form validation function
 function signIn() {
   email = document.querySelector(".email");
   pass = document.querySelector(".password").value;
@@ -86,6 +90,7 @@ function signIn() {
   }
 }
 
+// !localstorage data saver function
 function savelocalStorage(data) {
   let saveInfo = localStorage.getItem("Users")
     ? JSON.parse(localStorage.getItem("Users"))
