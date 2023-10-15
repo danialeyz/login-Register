@@ -22,14 +22,14 @@ function transform() {
   cover.children[1].innerText =
     "to keep conntected with us please login with your personal info";
 
-  if (cover.children[2].innerText == "SIGN IN") {
+  if (cover.children[2].innerText == "LOG IN") {
     cover.style.transform = "translate(0%)";
     cover.children[0].innerText = "Hello, Friend!";
     cover.children[1].innerText =
       "Enter your personal details and start journey with us";
     cover.children[2].innerText = "SING UP";
   } else {
-    cover.children[2].innerText = "LOGN IN";
+    cover.children[2].innerText = "LOG IN";
   }
 }
 
