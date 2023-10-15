@@ -18,7 +18,7 @@ signInBtn.addEventListener("click", signIn);
 // forms cover tranformation function
 function transform() {
   cover.style.transform = "translate(-100%)";
-  cover.children[0].innerText = "Welcome back!";
+  cover.children[0].innerText = "Welcome !";
   cover.children[1].innerText =
     "to keep conntected with us please login with your personal info";
 
@@ -29,7 +29,7 @@ function transform() {
       "Enter your personal details and start journey with us";
     cover.children[2].innerText = "SING UP";
   } else {
-    cover.children[2].innerText = "SIGN IN";
+    cover.children[2].innerText = "LOGN IN";
   }
 }
 
