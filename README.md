@@ -12,4 +12,8 @@ This project aims to create a user-friendly Log-in and sign-up page with a minim
 - **Validation Methods:** Various validation methods will be implemented to ensure the accuracy and security of user information.
 - **Data Comparison:** User information will be compared with the saved data to validate the authenticity of the provided details.
 
+
+![](https://github.com/danialeyz/login-Register/blob/cde297b69ce4ab75c7c524385a72c3d14aa9313f/Screen%20Shot%201402-07-26%20at%2020.38.02.png)
+- https://github.com/danialeyz/login-Register/blob/cde297b69ce4ab75c7c524385a72c3d14aa9313f/Screen%20Shot%201402-07-26%20at%2020.38.02.png
+
 By incorporating these features, the landing page will provide a comprehensive and secure solution for user authentication.
