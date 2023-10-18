@@ -2,6 +2,8 @@
 
 This project aims to create a user-friendly Log-in and sign-up page with a minimalistic design. The page will allow users to securely sign in by saving their information in local storage. This stored information will be reused for subsequent sign-ins, ensuring a seamless user experience. 
 
+![](https://github.com/danialeyz/login-Register/blob/9f9347967e6f483ba5641bb740a1aaa7b6c9362a/Screen%20Shot%201402-07-26%20at%2020.36.18.png)
+
 ### Key Features:
 - **Sign-in and Sign-up:** Users will be able to easily sign in or sign up for an account.
 - **Minimal Design:** The landing page will have a clean and minimalistic design, providing a visually appealing interface.
